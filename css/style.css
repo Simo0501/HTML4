@@ -104,8 +104,9 @@ html{
     margin-bottom: 20px;
 }
 .download{
+    padding: 7px 15px;
     border:2px solid black;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .download:hover,
 .download:active,
