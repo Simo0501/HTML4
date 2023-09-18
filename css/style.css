@@ -1,4 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html{
     font-family: 'Roboto', sans-serif;
-    background-color: blue;
+}
+.header{
+
+}
+.menu{
+
+}
+.jumbo{
+
+}
+.logo,
+.menu-list,
+.sign-in{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu-list{
+    list-style-type: none;
+}
+.menu-list-item{
+    display: inline-block;
 }
