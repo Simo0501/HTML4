@@ -6,6 +6,19 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+.btn{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: transparent;
+    font-weight: bold;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: white;
+  cursor: pointer;
+}
 .menu{
     width: 80%;
     margin:0 auto;
@@ -73,9 +86,33 @@ html{
     background-size: contain;
 }
 .jumbo{
+    padding: 40px;
     background-color:#f9f9f9;
 }
 .jumbo-content{
-    width: 550px;
+    width: 500px;
     margin:0 auto;
+}
+.jumbo-content h1{
+    margin-bottom:10px;
+}
+.jumbo-content h2{
+    margin-bottom: 25px;
+}
+.jumbo-content ul{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.download{
+    border:2px solid black;
+    margin-left: 30px;
+}
+.download:hover,
+.download:active,
+.download:focus{
+    background-color: black;
+    color: white;
+}
+.jumbo-content ul li{
+    margin-bottom: 20px;
 }
