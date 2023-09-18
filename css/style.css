@@ -80,17 +80,18 @@ html{
     border: 1px solid white;
 }
 .jumbo{
-    background-image:url(../css/img/img-logo.jpg);
+    background-image:url(../css/img/hero-pe-8.webp);
     background-repeat: no-repeat;
     height:400px;
-    background-size: contain;
+    background-size: cover;
+    background-position:right;
 }
 .jumbo{
     padding: 40px;
     background-color:#f9f9f9;
 }
 .jumbo-content{
-    width: 500px;
+    width: 900px;
     margin:0 auto;
 }
 .jumbo-content h1{
